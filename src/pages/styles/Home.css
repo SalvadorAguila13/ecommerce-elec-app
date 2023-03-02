@@ -1,0 +1,104 @@
+.home__listProducts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    justify-content: center;
+    grid-template-rows: auto;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home__form {
+    margin: 20px 30px 20px;
+    position: relative;
+}
+
+.home__search {
+    display: flex;
+    margin-bottom: 15px;
+    max-width: 600px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(187, 15, 15);
+}
+
+.home__input {
+    border: 1px solid var(--light-gray);
+    flex: 1 1;
+    font-size: .9rem;
+    padding: 5px 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+
+.home__btn {
+    background: var(--primary);
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    height: 45px;
+    line-height: 1;
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.home__btn:hover{
+    background-color: rgb(187, 15, 15);
+    box-shadow: 1px 1px 2px black;
+    font-weight: bold;
+}
+
+.home__filter-btn{
+    background: transparent;
+    color: var(--gray);
+    display: block;
+    display: flex;
+    font-size: .95rem;
+    margin: 0 0 10px auto;
+    border: none;
+    cursor: pointer;
+}
+
+.home__filter-btn i{
+    font-size: 1.3rem;
+    margin-right: 11px;
+}
+
+.home__category {
+    max-width: 300px;
+}
+
+.home__categoryTitle {
+    align-items: center;
+    border-bottom: 2px solid var(--light-gray);
+    cursor: pointer;
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    height: 40px;
+    justify-content: space-between;
+    padding: 1px;
+    max-width: 300px;
+}
+
+.home__categoryList {
+    margin: 0 0 10px 20px;
+}
+
+.home__categoryLi{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.home__categoryLi:hover{
+    text-decoration: underline;
+}
+
+
+/***************************/

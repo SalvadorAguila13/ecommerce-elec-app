@@ -1,0 +1,19 @@
+.notification {
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+    position: fixed;
+    right: -100%;
+    opacity: 0;
+    z-index: 2;
+    transition: right 600ms ease, opacity 300ms ease;
+}
+
+.notification.active {
+    right: 15px;
+    opacity: 1;
+}
